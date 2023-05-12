@@ -1,0 +1,15 @@
+{
+  "name": "socket-chat-example",
+  "version": "1.0.0",
+  "description": "building a simple chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lovis-tawiah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
