@@ -10,7 +10,8 @@
     <nav>
         <ul>
             <li>Socket chat</li>
-            <li>🔴</li>
+            <li id="indicator">🔴</li>
+            <li id="connection"></li>
         </ul>
     </nav>
     <ul id="messages">
@@ -35,11 +36,11 @@
         <form id="form" action="">
             <input id="username" autocomplete="off" placeholder="username" />
             <input id="message" autocomplete="off" placeholder="enter message..." />
-            <button>Send</button>
+            <button id="submit">Send</button>
         </form>
     </footer>
-    <!-- <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script> -->
-    <script src="./public/js/index.js"></script>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script  src="./public/js/index.js"></script>
 
 </body>
 
